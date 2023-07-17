@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "groupId": "987654321",
+  "groupCreatorUserPhoneNumber": "09120123456",
+  "groupName": "testGroupName",
+  "groupAvatar": "testAvatar.jpg",
+  "createDateTime": "2023-01-01 12:00:00",
+  "lastMessageSenderFullName": "testFullName",
+  "lastMessageBody": "testMessage",
+  "lastMessageDateTime": "2023-01-01 12:00:00",
+  "lastMessageCategory": "text",
+  "lastMessageType": "sent",
+  "lastMessageIsReadByGroupUser": true,
+  "isConfirm": true,
+  "notReadMessageCount": 0
+}

@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "groupId": "987654321",
+  "messageId": "123456789",
+  "receiverPhoneNumber": "09120654321",
+  "messageType": "sent",
+  "messageIsReadByGroupUser": true
+}

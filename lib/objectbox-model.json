@@ -1,0 +1,342 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:962377739071892748",
+      "lastPropertyId": "14:4193374784908062106",
+      "name": "GroupEntity",
+      "properties": [
+        {
+          "id": "1:5133526708415713423",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:8472778788011772995",
+          "name": "groupId",
+          "type": 9
+        },
+        {
+          "id": "3:4060330444797697090",
+          "name": "groupCreatorUserPhoneNumber",
+          "type": 9
+        },
+        {
+          "id": "4:8150251929155147706",
+          "name": "groupName",
+          "type": 9
+        },
+        {
+          "id": "5:5211806115353084569",
+          "name": "groupAvatar",
+          "type": 9
+        },
+        {
+          "id": "6:1912620459302756109",
+          "name": "createDateTime",
+          "type": 9
+        },
+        {
+          "id": "7:8300649684769031783",
+          "name": "lastMessageSenderFullName",
+          "type": 9
+        },
+        {
+          "id": "8:7663721106103389065",
+          "name": "lastMessageBody",
+          "type": 9
+        },
+        {
+          "id": "9:846486717679610519",
+          "name": "lastMessageDateTime",
+          "type": 9
+        },
+        {
+          "id": "10:3664759433630450185",
+          "name": "lastMessageCategory",
+          "type": 9
+        },
+        {
+          "id": "11:7758523878521543864",
+          "name": "lastMessageType",
+          "type": 9
+        },
+        {
+          "id": "12:7123463890007272892",
+          "name": "lastMessageIsReadByGroupUser",
+          "type": 1
+        },
+        {
+          "id": "13:1696372282178470607",
+          "name": "isConfirm",
+          "type": 1
+        },
+        {
+          "id": "14:4193374784908062106",
+          "name": "notReadMessageCount",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2245648178531074749",
+      "lastPropertyId": "7:5134214157978644879",
+      "name": "GroupMessageEntity",
+      "properties": [
+        {
+          "id": "1:2103793251231539958",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:5157735600153251941",
+          "name": "messageId",
+          "type": 9
+        },
+        {
+          "id": "3:8972839449334169308",
+          "name": "groupId",
+          "type": 9
+        },
+        {
+          "id": "4:8895395562174944661",
+          "name": "senderPhoneNumber",
+          "type": 9
+        },
+        {
+          "id": "5:6048517136755045242",
+          "name": "messageCategory",
+          "type": 9
+        },
+        {
+          "id": "6:6013171731543648637",
+          "name": "messageBody",
+          "type": 9
+        },
+        {
+          "id": "7:5134214157978644879",
+          "name": "messageDateTime",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:779745818344396311",
+      "lastPropertyId": "6:4654089458322331595",
+      "name": "GroupMessageTypeEntity",
+      "properties": [
+        {
+          "id": "1:4916649034553785672",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:6561407827563173446",
+          "name": "groupId",
+          "type": 9
+        },
+        {
+          "id": "3:7378469625430863667",
+          "name": "messageId",
+          "type": 9
+        },
+        {
+          "id": "4:5540305217900628454",
+          "name": "receiverPhoneNumber",
+          "type": 9
+        },
+        {
+          "id": "5:222347786311958414",
+          "name": "messageType",
+          "type": 9
+        },
+        {
+          "id": "6:4654089458322331595",
+          "name": "messageIsReadByGroupUser",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:4982635435746120351",
+      "lastPropertyId": "4:7245665891220590000",
+      "name": "GroupUserEntity",
+      "properties": [
+        {
+          "id": "1:1954038684585957601",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:7340328254801314423",
+          "name": "groupId",
+          "type": 9
+        },
+        {
+          "id": "3:996948107762254214",
+          "name": "userPhoneNumber",
+          "type": 9
+        },
+        {
+          "id": "4:7245665891220590000",
+          "name": "isAdmin",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:2571916921137526024",
+      "lastPropertyId": "9:4122186488881015082",
+      "name": "MessageEntity",
+      "properties": [
+        {
+          "id": "1:1915017819137047008",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:6411308970271632365",
+          "name": "messageId",
+          "type": 9
+        },
+        {
+          "id": "3:5233892670571830193",
+          "name": "senderPhoneNumber",
+          "type": 9
+        },
+        {
+          "id": "4:483056101346409597",
+          "name": "targetPhoneNumber",
+          "type": 9
+        },
+        {
+          "id": "5:4214758249110335052",
+          "name": "messageCategory",
+          "type": 9
+        },
+        {
+          "id": "6:7630099666347813458",
+          "name": "messageBody",
+          "type": 9
+        },
+        {
+          "id": "7:1975123797377264827",
+          "name": "messageDateTime",
+          "type": 9
+        },
+        {
+          "id": "8:2618280616127960630",
+          "name": "messageType",
+          "type": 9
+        },
+        {
+          "id": "9:4122186488881015082",
+          "name": "messageIsReadByTargetUser",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:4777558602983349766",
+      "lastPropertyId": "14:8393056459902055607",
+      "name": "UserEntity",
+      "properties": [
+        {
+          "id": "1:1389200632520195858",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:5188640544563972181",
+          "name": "userPhoneNumber",
+          "type": 9
+        },
+        {
+          "id": "3:3801740623041085276",
+          "name": "fullName",
+          "type": 9
+        },
+        {
+          "id": "4:3851969674035853260",
+          "name": "userAvatar",
+          "type": 9
+        },
+        {
+          "id": "5:4688886105994163802",
+          "name": "lastSeenDateTime",
+          "type": 9
+        },
+        {
+          "id": "6:9120669609173358075",
+          "name": "lastMessageBody",
+          "type": 9
+        },
+        {
+          "id": "7:7114741673590324069",
+          "name": "lastMessageDateTime",
+          "type": 9
+        },
+        {
+          "id": "8:9164538062791863587",
+          "name": "lastMessageCategory",
+          "type": 9
+        },
+        {
+          "id": "9:7847118720529623442",
+          "name": "lastMessageType",
+          "type": 9
+        },
+        {
+          "id": "10:573286213124545676",
+          "name": "lastMessageIsReadByTargetUser",
+          "type": 1
+        },
+        {
+          "id": "11:4395332104772663858",
+          "name": "isConfirm",
+          "type": 1
+        },
+        {
+          "id": "12:6723614472738014631",
+          "name": "notReadMessageCount",
+          "type": 6
+        },
+        {
+          "id": "13:4160084302788370827",
+          "name": "verifyCode",
+          "type": 9
+        },
+        {
+          "id": "14:8393056459902055607",
+          "name": "verifyProfile",
+          "type": 1
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "6:4777558602983349766",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "userPhoneNumber": "09120123456",
+  "fullName": "testFullName",
+  "userAvatar": "testAvatar.jpg",
+  "lastSeenDateTime": "2023-01-01 12:00:00",
+  "lastMessageBody": "testMessage",
+  "lastMessageDateTime": "2023-01-01 12:00:00",
+  "lastMessageCategory": "text",
+  "lastMessageType": "sent",
+  "lastMessageIsReadByTargetUser": true,
+  "isConfirm": true,
+  "notReadMessageCount": 0,
+  "verifyCode": "456789",
+  "verifyProfile": true
+}

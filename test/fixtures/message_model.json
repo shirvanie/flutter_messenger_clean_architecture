@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "messageId": "123456789",
+  "senderPhoneNumber": "09120123456",
+  "targetPhoneNumber": "09120654321",
+  "messageCategory": "text",
+  "messageBody": "testMessage",
+  "messageDateTime": "2023-01-01 12:00:00",
+  "messageType": "send",
+  "messageIsReadByTargetUser": true
+}

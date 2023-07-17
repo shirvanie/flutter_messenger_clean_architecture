@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "messageId": "123456789",
+  "groupId": "987654321",
+  "senderPhoneNumber": "09120123456",
+  "messageCategory": "text",
+  "messageBody": "testMessage",
+  "messageDateTime": "2023-01-01 12:00:00"
+}
